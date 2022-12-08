@@ -1,1 +1,11 @@
-
+Example of ResNet-50 on CIFAR-10:
+python resnet50_cifar10.py --ip_addr=yourip --this_rank=0    # server 0
+python resnet50_cifar10.py --ip_addr=yourip --this_rank=1    # server 1
+python resnet50_cifar10.py --ip_addr=yourip --this_rank=2    # worker 0
+python resnet50_cifar10.py --ip_addr=yourip --this_rank=3    # worker 1
+python resnet50_cifar10.py --ip_addr=yourip --this_rank=4    # worker 2
+python resnet50_cifar10.py --ip_addr=yourip --this_rank=5    # worker 3
+python resnet50_cifar10.py --ip_addr=yourip --this_rank=6    # worker 4
+python resnet50_cifar10.py --ip_addr=yourip --this_rank=7    # worker 5
+python resnet50_cifar10.py --ip_addr=yourip --this_rank=8    # worker 6
+python resnet50_cifar10.py --ip_addr=yourip --this_rank=9    # worker 7
