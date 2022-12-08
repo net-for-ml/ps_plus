@@ -1,1 +1,6 @@
-
+Example of AlexNet:
+python server.py --ps_ip=yourip --ps_port=29500 --data-dir=datafolder --this_rank=0 --all_workers=1-2-3-4 --epochs=100 --threshold=0.001 --model=AlexNet
+python worker.py --ps_ip=yourip --ps_port=29500 --data_dir=datafolder --this_rank=1 --all_workers=1-2-3-4 --epochs=100 --threshold=0.001 --model=AlexNet
+python worker.py --ps_ip=yourip --ps_port=29500 --data_dir=datafolder --this_rank=2 --all_workers=1-2-3-4 --epochs=100 --threshold=0.001 --model=AlexNet
+python worker.py --ps_ip=yourip --ps_port=29500 --data_dir=datafolder --this_rank=3 --all_workers=1-2-3-4 --epochs=100 --threshold=0.001 --model=AlexNet
+python worker.py --ps_ip=yourip --ps_port=29500 --data_dir=datafolder --this_rank=4 --all_workers=1-2-3-4 --epochs=100 --threshold=0.001 --model=AlexNet
